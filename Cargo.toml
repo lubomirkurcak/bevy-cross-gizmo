@@ -1,6 +1,6 @@
 [package]
 name = "bevy-cross-gizmo"
-version = "0.13.2"
+version = "0.14.0"
 edition = "2021"
 categories = ["game-engines", "graphics", "gui", "rendering"]
 description = "Adds `cross` and `cross_2d` gizmos to Bevy."
@@ -10,4 +10,4 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/lubomirkurcak/bevy-cross-gizmo"
 
 [dependencies]
-bevy = "0.13.2"
+bevy = "0.14.0"
