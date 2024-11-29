@@ -1,3 +1,11 @@
+## Deprecated
+
+This crate is deprecated. The functionality has been integrated into Bevy.
+Use [`Gizmos::cross`](https://docs.rs/bevy/latest/bevy/prelude/struct.Gizmos.html#method.cross) for 3D
+and [`Gizmos::cross_2d`](https://docs.rs/bevy/latest/bevy/prelude/struct.Gizmos.html#method.cross_2d) for 2D.
+
+_____
+
 # bevy-cross-gizmo
 
 Adds `cross` and `cross_2d` gizmos to Bevy.
@@ -26,10 +34,11 @@ fn update(mut gizmos: Gizmos) {
 
 ## Compatibility
 
-| `bevy` | `bevy-cross-gizmo` |
-|--------|--------------------|
-| 0.14.0 | 0.14.0             |
-| 0.13.2 | 0.13.2             |
+| `bevy` | `bevy-cross-gizmo`  |
+|--------|---------------------|
+| 0.15.0 | part of Bevy Gizmos |
+| 0.14.0 | 0.14.0              |
+| 0.13.2 | 0.13.2              |
 
 ## License
 

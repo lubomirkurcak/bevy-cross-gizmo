@@ -1,13 +1,10 @@
 [package]
 name = "bevy-cross-gizmo"
-version = "0.14.0"
+version = "0.15.0"
 edition = "2021"
 categories = ["game-engines", "graphics", "gui", "rendering"]
-description = "Adds `cross` and `cross_2d` gizmos to Bevy."
+description = "This crate is deprecated. Use Bevy's Gizmos::cross and Gizmos::cross_2d methods instead."
 homepage = "https://bevyengine.org"
 keywords = ["game", "engine", "gamedev", "graphics", "bevy"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/lubomirkurcak/bevy-cross-gizmo"
-
-[dependencies]
-bevy = "0.14.0"
